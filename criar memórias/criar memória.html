@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>criar memória</title>
+    <link rel="stylesheet" href="../assets/styles/global.css">
+    <link rel="stylesheet" href="criar-memória.css">
+</head>
+<body>
+    <header class="app-header">
+        <img src="../assets/icons/mnemosyne-logo.svg" alt="Logo do site Mnemosyne.">
+        <nav class="links">
+            <a href="#">home</a>
+            <a href="#">adicionar memória</a>
+        </nav>
+    </header>
+    <div class="cx-alerta" id="cx-alerta">
+        <p><strong>aviso!</strong></p>
+        <p>È necessário adicionar ao menos uma imagem para criar uma memória</p>
+     </div>
+    <main class="app-main">
+        <h1>crie uma memória</h1>
+        <form class="formulario">
+            <label class="lbl-txt" for="titulo">titulo</label>
+            <input type="text" id="titulo" placeholder="insira o titulo aqui">
+
+            <label class="lbl-txt" for="descricao">Descrição</label>
+            <textarea id="descricao" placeholder="insira a Descrição aqui"></textarea>
+            <label class="lbl-txt">imagens</label>
+            <button class="add-imagens">+ adicionar imagens</button>
+
+
+            <p class="nenhum">Nenhuma imagem adicionada no momento.</p>
+
+            <div class="img-container">
+<!-- <img src="../assets/img/baões.png" alt="balões coloridos">
+<img src="../assets/img/baões.png" alt="balões coloridos">
+<img src="../assets/img/baões.png" alt="balões coloridos">
+<img src="../assets/img/baões.png" alt="balões coloridos">  -->
+</div>
+            <button type="submit" class="btn-criar">criar memória</button>
+        </form>
+    </main>
+    <footer class="app-footer"></footer>
+    <p>Mnemosyne - Késsia Milena</p>
+</footer>
+</body>
+</html>
